@@ -6,10 +6,11 @@ function ExibeConhecimentos(){
                 <div class="card-body">
                     <h5 class="card-title">Formação:</h5>
                     <p class="card-text">
-                        Granduação em Ciência da Computação - Em Andamento. <br>
-                        Certificado Nível C1 ou Superior em Inglês pela Cambridge – 2020. <br>
-                        Certificado em Gamificação pela Funifier – 2018. <br>
-                        Participação em Treinamento de Scrum Ministrado pela K21 – 2017. <br> <br> <br> <br> <br>
+                        Granduação em Ciência da Computação pelo Uniceub - Em Andamento. <br>
+                        Certificado Nível C1 ou Superior em Inglês pela Cambridge - 2020. <br>
+                        Curso Javascript: Programando na Linguagem da Web pela Alura - 2019 <br>
+                        Certificado em Gamificação pela Funifier - 2018. <br>
+                        Participação em Treinamento de Scrum Ministrado pela K21 - 2017. <br> <br> <br> <br> <br>
                     </p>
                 </div>
             </div>
@@ -22,11 +23,12 @@ function ExibeConhecimentos(){
                         Cobol - Intermediário.<br>
                         SyncSort - Intermediário.<br>
                         JCL - Intermediário.<br>
-                        SQL - Intermediário.<br>
-                        Python – Intermediário.<br>
-                        HTML – Iniciante.<br>
-                        CSS – Iniciante.<br>
-                        JavaScript – Iniciante.
+                        Bancos de Dados (BD2 e MySql) - Intermediário.<br>
+                        Python - Intermediário.<br>
+                        C - Intermediário. <br>
+                        HTML - Iniciante.<br>
+                        CSS - Iniciante.<br>
+                        JavaScript - Iniciante.
                     </p>
                 </div>
             </div>
@@ -39,15 +41,32 @@ function ExibeConhecimentos(){
 
 function ExibeExperiencia(){
     let template = `
-    <div class="card" style="margin: 25px;">
-        <div class="card-body">
-            <h5 class="card-title">Experiência Profissional:</h5>
-            <p class="card-text">
-                Abertura de Conca Corrente - 2021 a Atual. <br>
-                Play, Gamificação (PLY) - 2018 a 2021. <br>
-                Acordo de Trabalho (ATB) - 2017 a 2018. <br>
-                Resultado Gerêncial (RST) – 2015 a 2017.
-            </p>
+    <div class="row" style="margin: 12px;">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Funções Desempenhadas:</h5>
+                    <p class="card-text">
+                    Assessor Unidade Estratégica - Banco do Brasil 2020 a Atual. <br>
+                    Analista de Sistemas - Banco do Brasil 2015 a 2020. <br>
+                    Assistente de TI - Banco do Brasil 2014 a 2015. <br>
+                    Escriturário - Banco do Brasil 2014.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Sistemas de Atuação:</h5>
+                    <p class="card-text">
+                    Abertura de Conca Corrente - 2021 a Atual. <br>
+                    Gamificação - 2018 a 2021. <br>
+                    Acordo de Trabalho - 2017 a 2018. <br>
+                    Cálculo de Resultado Gerêncial - 2015 a 2017.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>`;
 
@@ -61,7 +80,7 @@ function ExibeConquistas(){
         <div class="card-body">
             <h5 class="card-title">Conquistas:</h5>
             <p class="card-text">
-                Desenvolvimento de Módulos de Abertura de Conta Corrente PJ Digital 2021 a Atual. <br>
+                Desenvolvimento de Módulos de Abertura de Conta Corrente PJ Digital 2021. <br>
                 Elaboração, Construção e Manutenção do Planeta BB – 2019 a 2021.<br>
                 Realização de 9 Workshops sobre Gamificação – 2018 a 2019.<br>
                 Convidado das edições 10 e 14 do Café com UX - 2018 e 2019.<br>
